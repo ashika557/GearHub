@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 60%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms-container {
+    margin: 0 auto;
+    position: relative;
+    width: 65%;
+    height: auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.signin-signup {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-field {
+    position: relative;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.input-field input {
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-field input:focus {
+    border-color: #007bff;
+}
+
+.btn {
+    width: 40%; /* Increased button width */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 15px; /* Added margin to the top of the button */
+}
+
+.social-text {
+    margin: 20px 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    color: #007bff;
+    margin: 0 5px;
+}
+
+.social-icon:hover {
+    color: #0056b3;
+}
+
+.alert {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
