@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletResponse;
 import controller.Database_controller;
 import model.ProductModel;
 import util.stringUtils;
-
+//creating class//
 @WebServlet("/EditProductServlet")
 public class EditProductServlet extends HttpServlet {
 
